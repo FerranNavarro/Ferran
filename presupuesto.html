@@ -24,27 +24,27 @@
          
             <form action="/action_page.php">
                 <label for="fname">Nombre</label>
-                <input type="text" id="fname" name="fname">
+                <input type="text" id="fname" name="fname" required minlength="3" maxlength="60">
                 <input type="submit" value="Enviar">
             </form>
         
             <form action="/action_page.php">
                 <label for="fname">Email</label>
-                <input type="text" id="fname" name="fname">
+                <input type="email" id="fname" name="fname" required>
                 <input type="submit" value="Enviar">
             </form>
             
             
             <form action="/action_page.php">
                 <label for="fname">Teléfono</label>
-                <input type="text" id="fname" name="fname">
+                <input type="number" id="fname" name="fname" required min="0" max="9">
                 <input type="submit" value="Enviar">
             </form>
             
 
             <form action="/action_page.php">
                 <label for="fname">Solicite más información (deberá ser un campo de texto multilínea)</label>
-                <input type="text" id="fname" name="fname">
+                <input type="text" id="fname" name="fname" required minlength="4" maxlength="9.900">
                 <input type="submit" value="Enviar">
             </form>
 
